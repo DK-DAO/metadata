@@ -24,7 +24,7 @@ Mux.get(
       "image": `https://metadata.dkdao.network/static/${name.toLowerCase().replace(/['\s]/g, '-')}.png`,
       "external_link": "https://duelistking.com",
       "seller_fee_basis_points": 100,
-      "fee_recipient": "0xDC9bD464Ab6cf1f8eB0F1a5D22d859e1FC10b65D"
+      "fee_recipient": "0xeE4fe9347a7902253a515CC76EaA3253b47a1837"
     }
   },
 );
