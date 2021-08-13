@@ -19,22 +19,12 @@ Mux.get(
     const currentCard = Card.from(`0x${bn.toString(16).padStart(64, '0')}`);
     const { name, description } = jsonData[Number(currentCard.getId())];
     return <any>{
-      title: 'DKDAO Items',
-      type: 'object',
-      properties: {
-        name: {
-          type: 'string',
-          description: name,
-        },
-        description: {
-          type: 'string',
-          description: `${description} [S/N: ${currentCard.getSerial().toString()}]`,
-        },
-        image: {
-          type: 'string',
-          description: `https://metadata.dkdao.network/static/${name.toLowerCase().replace(/['\s]/g, '-')}.png`,
-        },
-      },
-    };
+      "name": name,
+      "description": `${description} [S/N: ${currentCard.getSerial().toString()}]`,
+      "image": `https://metadata.dkdao.network/static/${name.toLowerCase().replace(/['\s]/g, '-')}.png`,
+      "external_link": "https://duelistking.com",
+      "seller_fee_basis_points": 100,
+      "fee_recipient": "0xDC9bD464Ab6cf1f8eB0F1a5D22d859e1FC10b65D"
+    }
   },
 );
