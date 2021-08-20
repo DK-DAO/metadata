@@ -34,6 +34,10 @@ Mux.get(
           value: 'Duelist King',
         },
         {
+          trait_type: 'Type',
+          value: data.get('Type'),
+        },
+        {
           trait_type: 'Rareness',
           value: data.get('Rareness Name'),
         },
