@@ -1,76 +1,262 @@
 [
   {
-    "name": "Verdict of God",
-    "description": "He brings the final verdict as the right hand of God - whether it's a death malediction or forgiveness, the finality is out of the question."
+    "Card Id": 0,
+    "Name": "Verdict of God",
+    "Description": "He brings the final verdict as the right hand of God - whether it's a death malediction or forgiveness, the finality is out of the question.",
+    "Rareness": 6,
+    "Rareness Name": "Legendary",
+    "Type": "Monster",
+    "Race": "Angel",
+    "Attribute": "Light",
+    "Attack Range": "Mixed",
+    "Rate": 5,
+    "Role": "Warrior"
   },
   {
-    "name": "Banished Fairy",
-    "description": "Betrayed by her own peers and exiled in eternity from Fairyland, Banished Fairy has revenge as the only thing that keeps up her hope for survival."
+    "Card Id": 1,
+    "Name": "Banished Fairy",
+    "Description": "Betrayed by her own peers and exiled in eternity from Fairyland, Banished Fairy has revenge as the only thing that keeps up her hope for survival. ",
+    "Rareness": 5,
+    "Rareness Name": "Special Super Rare",
+    "Type": "Monster",
+    "Race": "Fairy",
+    "Attribute": "Fire",
+    "Attack Range": "Ranged",
+    "Rate": 4,
+    "Role": "Caster"
   },
   {
-    "name": "Wrath of The Sea",
-    "description": "You wish it were actually the end of the world! The catastrophic power of these monstrous creatures are just beyond what the world can imagine."
+    "Card Id": 2,
+    "Name": "Wrath of The Sea",
+    "Description": "You wish it were actually the end of the world! The catastrophic power of these monstrous creatures are just beyond what the world can imagine.",
+    "Rareness": 5,
+    "Rareness Name": "Special Super Rare",
+    "Type": "Monster",
+    "Race": "Dragon",
+    "Attribute": "Water",
+    "Attack Range": "Mixed",
+    "Rate": 4,
+    "Role": "Warrior"
   },
   {
-    "name": "Eternal Storm",
-    "description": "Fuelled with wandering enraged souls, Eternal Storm sends ships, humans and monsters alike down insidious spirals of death and revenge. "
+    "Card Id": 3,
+    "Name": "Eternal Storm",
+    "Description": "Fuelled with wandering enraged souls, Eternal Storm sends ships, humans and monsters alike down insidious spirals of death and revenge. ",
+    "Rareness": 4,
+    "Rareness Name": "Super Rare",
+    "Type": "Magic",
+    "Race": "",
+    "Attribute": "",
+    "Attack Range": "",
+    "Rate": null,
+    "Role": ""
   },
   {
-    "name": "Skadi",
-    "description": "One of the best lancers and most prominent Dark Elves, Skadi is chosen to head black moon guild and also the closest servant to the Seniors"
+    "Card Id": 4,
+    "Name": "Skadi",
+    "Description": "One of the best lancers and most prominent Dark Elves, Skadi is chosen to head black moon guild and also the closest servant to the Seniors",
+    "Rareness": 4,
+    "Rareness Name": "Super Rare",
+    "Type": "Monster",
+    "Race": "Dark Elf",
+    "Attribute": "Dark",
+    "Attack Range": "Melee",
+    "Rate": 4,
+    "Role": "Duelist"
   },
   {
-    "name": "Unforgiven Creatures",
-    "description": "Foregone fearless Naga warriors turn Demons as they fleed to Deep Sea and submerged in Dark Matters."
+    "Card Id": 5,
+    "Name": "Unforgiven Creatures",
+    "Description": "Foregone fearless Naga warriors turn Demons as they fled to Deep Sea and submerged in Dark Matters.",
+    "Rareness": 4,
+    "Rareness Name": "Super Rare",
+    "Type": "Monster",
+    "Race": "Naga",
+    "Attribute": "Water",
+    "Attack Range": "Melee",
+    "Rate": 3,
+    "Role": "Warrior"
   },
   {
-    "name": "Deadly Pool",
-    "description": "No survivors have been recorded to recount what happened to them once they were jinxed and dragged down this madness called Deadly Pool."
+    "Card Id": 6,
+    "Name": "Deadly Pool",
+    "Description": "No survivors have been recorded to recount what happened to them once they were jinxed and dragged down this madness called Deadly Pool.",
+    "Rareness": 3,
+    "Rareness Name": "Rare",
+    "Type": "Trap",
+    "Race": "",
+    "Attribute": "",
+    "Attack Range": "",
+    "Rate": null,
+    "Role": ""
   },
   {
-    "name": "Euphemia",
-    "description": "One of the most striking magicians of the Elf, Euphemia is blessed by the World Tree tribe with desirable aquatic magic."
+    "Card Id": 7,
+    "Name": "Euphemia",
+    "Description": "One of the most striking magicians of the Elf, Euphemia is blessed by the World Tree tribe with unmatched aquatic magic.",
+    "Rareness": 3,
+    "Rareness Name": "Rare",
+    "Type": "Monster",
+    "Race": "Elf",
+    "Attribute": "Water",
+    "Attack Range": "Ranged",
+    "Rate": 3,
+    "Role": "Caster"
   },
   {
-    "name": "Sayyida",
-    "description": "Don't let her look fool you! Sayyida is one of the most ruthless reigning over seven seas."
+    "Card Id": 8,
+    "Name": "Sayyida",
+    "Description": "Don't let her look fool you! Sayyida is one of the most ruthless reigning over seven seas.",
+    "Rareness": 3,
+    "Rareness Name": "Rare",
+    "Type": "Monster",
+    "Race": "Human",
+    "Attribute": "Neutral",
+    "Attack Range": "Ranged",
+    "Rate": 3,
+    "Role": "Archer"
   },
   {
-    "name": "Shadowmare",
-    "description": "Coming from Darf Rift, they reside in human's subconscious minds and live off angst and fear to grow up till they can tear human's flesh apart and step out and destroy the world."
+    "Card Id": 9,
+    "Name": "Shadowmare",
+    "Description": "Coming from Dark Rift, they reside in human's subconscious minds and live off angst and fear to grow up till they can tear human's flesh apart and step out and destroy the world.",
+    "Rareness": 3,
+    "Rareness Name": "Rare",
+    "Type": "Monster",
+    "Race": "Fiend",
+    "Attribute": "Dark",
+    "Attack Range": "Mixed",
+    "Rate": 3,
+    "Role": "Caster"
   },
   {
-    "name": "Deepsea's Hunger",
-    "description": "Trapped between the wrath of the sea and the thirst for revenge and bloodshed battles, Deepsea's hunger is the living menace to all sea creatures"
+    "Card Id": 10,
+    "Name": "Deepsea's Hunger",
+    "Description": "Trapped between the wrath of the sea and the thirst for revenge and bloodshed battles, Deepsea's hunger is the living menace to all sea creatures",
+    "Rareness": 2,
+    "Rareness Name": "Uncommon",
+    "Type": "Monster",
+    "Race": "Fish",
+    "Attribute": "Water",
+    "Attack Range": "Melee",
+    "Rate": 3,
+    "Role": "Warrior"
   },
   {
-    "name": "Krakenetics",
-    "description": "This ancient beast likes to toy with humans and boats as if the sea were their own playground."
+    "Card Id": 11,
+    "Name": "Krakenetics",
+    "Description": "This ancient beast likes to toy with humans and boats as if the sea were their own playground.",
+    "Rareness": 2,
+    "Rareness Name": "Uncommon",
+    "Type": "Monster",
+    "Race": "Fish",
+    "Attribute": "Water",
+    "Attack Range": "Melee",
+    "Rate": 3,
+    "Role": "Warrior"
   },
   {
-    "name": "Death Knight",
-    "description": "Ancient Liches convene the strongest anathema to ravage these living lethal weapons and render them souless and merciless creatues."
+    "Card Id": 12,
+    "Name": "Death Knight",
+    "Description": "Ancient Liches convene the strongest anathema to ravage these living lethal weapons and render them soulless and merciless creatures.",
+    "Rareness": 2,
+    "Rareness Name": "Uncommon",
+    "Type": "Monster",
+    "Race": "Undead",
+    "Attribute": "Dark",
+    "Attack Range": "Melee",
+    "Rate": 3,
+    "Role": "Duelist"
   },
   {
-    "name": "Mighty Fist",
-    "description": "Crafted through countless battles and bloodshed, Mighty Fist has courage as his badge of honor and respect as his coat of arms."
-  },
-  { "name": "Aoife", "description": "A dedicated warrior and warden of the sea against demons and devils of Deepsea." },
-  {
-    "name": "Corock",
-    "description": "Cocorocks are the most sought after mercenaries who are rendered numb to threats and death through countless blood-soaked wars. They possess the power of dwarves and the flair of goblins."
-  },
-  {
-    "name": "Little Johnny",
-    "description": "Born and bred in the slumps of a coastal town, Johnny learnt bags of tricks that help keep him alive even through deadliest monsters and the most fatal battles. He has distinct charisma to his entourage who will scarifice their souls for him."
-  },
-  { "name": "Nix", "description": "A real warrior with teeth and a great companion of Johnny" },
-  {
-    "name": "Regalia of the Sea",
-    "description": "The best Dwarf craftsmen were masscared right after they completed crafting the Regalia masterpiece so no replica can be produced.This treasure brings power and curse to whoever wants to claim it for their own goods."
+    "Card Id": 13,
+    "Name": "Mighty Fist",
+    "Description": "Crafted through countless battles and bloodshed, Mighty Fist has courage as his badge of honor and respect as his coat of arms.",
+    "Rareness": 2,
+    "Rareness Name": "Uncommon",
+    "Type": "Monster",
+    "Race": "Human",
+    "Attribute": "Neutral",
+    "Attack Range": "Ranged",
+    "Rate": 2,
+    "Role": "Archer"
   },
   {
-    "name": "Undying Sailor",
-    "description": "\"Deadmen tell no tales\" - but what if they are not dead? Coined with hunger and vengeance, Undying Sailors can unveil the most horror tales that you wish never existed!"
+    "Card Id": 14,
+    "Name": "Aoife",
+    "Description": "A dedicated warrior and warden of the sea against demons and devils of Deepsea.",
+    "Rareness": 2,
+    "Rareness Name": "Uncommon",
+    "Type": "Monster",
+    "Race": "Naga",
+    "Attribute": "Water",
+    "Attack Range": "Melee",
+    "Rate": 2,
+    "Role": "Warrior"
+  },
+  {
+    "Card Id": 15,
+    "Name": "Corock",
+    "Description": "Cocorocks are the most sought after mercenaries who are rendered numb to threats and death through countless blood-soaked wars. They possess the power of dwarves and the flair of goblins.",
+    "Rareness": 1,
+    "Rareness Name": "Common",
+    "Type": "Monster",
+    "Race": "Goblin",
+    "Attribute": "Earth",
+    "Attack Range": "Melee",
+    "Rate": 2,
+    "Role": "Warrior"
+  },
+  {
+    "Card Id": 16,
+    "Name": "Little Johnny",
+    "Description": "Born and bred in the slumps of a coastal town, Johnny learnt bags of tricks that help keep him alive even through deadliest monsters and the most fatal battles. He has distinct charisma to his entourage who will scarifice their souls for him.",
+    "Rareness": 1,
+    "Rareness Name": "Common",
+    "Type": "Monster",
+    "Race": "Human",
+    "Attribute": "Neutral",
+    "Attack Range": "Melee",
+    "Rate": 2,
+    "Role": "Warrior"
+  },
+  {
+    "Card Id": 17,
+    "Name": "Nix",
+    "Description": "A real warrior with teeth and a great companion of Johnny",
+    "Rareness": 1,
+    "Rareness Name": "Common",
+    "Type": "Monster",
+    "Race": "Animal",
+    "Attribute": "Neutral",
+    "Attack Range": "Melee",
+    "Rate": 1,
+    "Role": "Support"
+  },
+  {
+    "Card Id": 18,
+    "Name": "Regalia of the Sea",
+    "Description": "The best Dwarf craftsmen were massacred right after they completed crafting the Regalia masterpiece so no replica can be produced.This treasure brings power and curse to whoever wants to claim it for their own goods.",
+    "Rareness": 1,
+    "Rareness Name": "Common",
+    "Type": "Magic",
+    "Race": "",
+    "Attribute": "",
+    "Attack Range": "",
+    "Rate": null,
+    "Role": ""
+  },
+  {
+    "Card Id": 19,
+    "Name": "Undying Sailor",
+    "Description": "\"Deadmen tell no tales\" - but what if they are not dead? Coined with hunger and vengeance, Undying Sailors can unveil the most horror tales that you wish never existed!",
+    "Rareness": 1,
+    "Rareness Name": "Common",
+    "Type": "Monster",
+    "Race": "Zombie",
+    "Attribute": "Dark",
+    "Attack Range": "Melee",
+    "Rate": 1,
+    "Role": "Warrior"
   }
 ]
