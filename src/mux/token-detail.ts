@@ -17,10 +17,11 @@ Mux.get(
     const bn = new BigNumber(req.params.nftTokenId);
     const currentCard = Card.from(`0x${bn.toString(16).padStart(64, '0')}`);
     const data = new Map(Object.entries(jsonData[Number(currentCard.getId())]));
+    const cardName = data.get('Name').trim();
     return <any>{
-      name: data.get('Name'),
+      name: cardName,
       description: `${data.get('Description')} [S/N: ${currentCard.getSerial().toString()}]`,
-      image: `https://metadata.dkdao.network/static/${(data.get('Name') || '')
+      image: `https://metadata.dkdao.network/static/${(cardName || '')
         .toString()
         .toLowerCase()
         .replace(/['\s]/g, '-')}.png`,
