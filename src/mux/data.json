@@ -268,7 +268,7 @@
 		"Rareness Name" : "Legendary",
 		"Type" : "Monster",
 		"Race" : "Demon",
-		"Atrribute" : "Fire",
+		"Attribute" : "Fire",
 		"Attack Range" : "Mixed",
 		"Rate" : 5,
 		"Role" : "Duelist"
@@ -282,7 +282,7 @@
 		"Rareness Name" : "Special Super Rare",
 		"Type" : "Monster",
 		"Race" : "Dark Elf",
-		"Atrribute" : "Dark",
+		"Attribute" : "Dark",
 		"Attack Range" : "Ranged",
 		"Rate" : 4,
 		"Role" : "Archer"
@@ -296,7 +296,7 @@
 		"Rareness Name" : "Special Super Rare",
 		"Type" : "Monster",
 		"Race" : "Human",
-		"Atrribute" : "Ice",
+		"Attribute" : "Ice",
 		"Attack Range" : "Ranged",
 		"Rate" : 4,
 		"Role" : "Caster"
@@ -310,7 +310,7 @@
 		"Rareness Name" : "Super Rare",
 		"Type" : "Monster",
 		"Race" : "Treant",
-		"Atrribute" : "Earth",
+		"Attribute" : "Earth",
 		"Attack Range" : "Melee",
 		"Rate" : 3,
 		"Role" : "Warrior"
@@ -324,7 +324,7 @@
 		"Rareness Name" : "Super Rare",
 		"Type" : "Monster",
 		"Race" : "Fiend",
-		"Atrribute" : "Dark",
+		"Attribute" : "Dark",
 		"Attack Range" : "Melee",
 		"Rate" : 3,
 		"Role" : "Warrior"
@@ -338,7 +338,7 @@
 		"Rareness Name" : "Super Rare",
 		"Type" : "Monster",
 		"Race" : "Dragon",
-		"Atrribute" : "Fire",
+		"Attribute" : "Fire",
 		"Attack Range" : "Mixed",
 		"Rate" : 4,
 		"Role" : "Caster"
@@ -352,7 +352,7 @@
 		"Rareness Name" : "Rare",
 		"Type" : "Monster",
 		"Race" : "Human",
-		"Atrribute" : "Neutral",
+		"Attribute" : "Neutral",
 		"Attack Range" : "Melee",
 		"Rate" : 2,
 		"Role" : "Warrior"
@@ -366,7 +366,7 @@
 		"Rareness Name" : "Rare",
 		"Type" : "Monster",
 		"Race" : "Orc",
-		"Atrribute" : "Neutral",
+		"Attribute" : "Neutral",
 		"Attack Range" : "Melee",
 		"Rate" : 3,
 		"Role" : "Warrior"
@@ -380,10 +380,10 @@
 		"Rareness Name" : "Rare",
 		"Type" : "Monster",
 		"Race" : "Human",
-		"Atrribute" : "Neutral",
+		"Attribute" : "Neutral",
 		"Attack Range" : "Ranged",
 		"Rate" : 2,
-		"Role" : "Assasin"
+		"Role" : "Assassin"
 	},
 	{
 		"Card Id" : 29,
@@ -394,7 +394,7 @@
 		"Rareness Name" : "Rare",
 		"Type" : "Monster",
 		"Race" : "Demon",
-		"Atrribute" : "Void",
+		"Attribute" : "Void",
 		"Attack Range" : "Mixed",
 		"Rate" : 4,
 		"Role" : "Warrior"
@@ -408,7 +408,7 @@
 		"Rareness Name" : "Uncommon",
 		"Type" : "Monster",
 		"Race" : "Human",
-		"Atrribute" : "Lightning",
+		"Attribute" : "Lightning",
 		"Attack Range" : "Ranged",
 		"Rate" : 3,
 		"Role" : "Caster"
@@ -422,10 +422,10 @@
 		"Rareness Name" : "Uncommon",
 		"Type" : "Monster",
 		"Race" : "Human",
-		"Atrribute" : "Poinsion",
+		"Attribute" : "Poison",
 		"Attack Range" : "Mixed",
 		"Rate" : 1,
-		"Role" : "Assasin"
+		"Role" : "Assassin"
 	},
 	{
 		"Card Id" : 32,
@@ -436,7 +436,7 @@
 		"Rareness Name" : "Uncommon",
 		"Type" : "Monster",
 		"Race" : "Human",
-		"Atrribute" : "Neutral",
+		"Attribute" : "Neutral",
 		"Attack Range" : "Mixed",
 		"Rate" : 2,
 		"Role" : "Caster"
@@ -450,7 +450,7 @@
 		"Rareness Name" : "Uncommon",
 		"Type" : "Monster",
 		"Race" : "Undead",
-		"Atrribute" : "Dark",
+		"Attribute" : "Dark",
 		"Attack Range" : "Melee",
 		"Rate" : 1,
 		"Role" : "Warrior"
@@ -464,7 +464,7 @@
 		"Rareness Name" : "Uncommon",
 		"Type" : "Monster",
 		"Race" : "Monster",
-		"Atrribute" : "Fire",
+		"Attribute" : "Fire",
 		"Attack Range" : "Mixed",
 		"Rate" : 2,
 		"Role" : "Caster"
@@ -478,7 +478,7 @@
 		"Rareness Name" : "Common",
 		"Type" : "Magic",
 		"Race" : "",
-		"Atrribute" : "",
+		"Attribute" : "",
 		"Attack Range" : "",
 		"Rate" : 2,
 		"Role" : ""
@@ -492,7 +492,7 @@
 		"Rareness Name" : "Common",
 		"Type" : "Monster",
 		"Race" : "Monster",
-		"Atrribute" : "Poinsion",
+		"Attribute" : "Poison",
 		"Attack Range" : "Melee",
 		"Rate" : 1,
 		"Role" : "Warrior"
@@ -506,7 +506,7 @@
 		"Rareness Name" : "Common",
 		"Type" : "Magic",
 		"Race" : "",
-		"Atrribute" : "",
+		"Attribute" : "",
 		"Attack Range" : "",
 		"Rate" : 2,
 		"Role" : ""
@@ -520,7 +520,7 @@
 		"Rareness Name" : "Common",
 		"Type" : "Monster",
 		"Race" : "Hobbit",
-		"Atrribute" : "Metal",
+		"Attribute" : "Metal",
 		"Attack Range" : "Melee",
 		"Rate" : 1,
 		"Role" : "Support"
@@ -534,7 +534,7 @@
 		"Rareness Name" : "Common",
 		"Type" : "Monster",
 		"Race" : "Goblin",
-		"Atrribute" : "Poinsion",
+		"Attribute" : "Poison",
 		"Attack Range" : "Ranged",
 		"Rate" : 1,
 		"Role" : "Support"
