@@ -11,7 +11,7 @@ Mux.get(
     type: 'string',
     validator: (e): boolean => /^[0-9]+$/gi.test(e) || /^0x[0-9a-f]+$/gi.test(e),
     location: 'params',
-    message: 'Nft token id must be number in decimal',
+    message: 'Nft token id must be number in decimal or hexadecimal',
   }),
   async (req: IRequestData) => {
     const bn = new BigNumber(req.params.nftTokenId);
@@ -21,7 +21,7 @@ Mux.get(
     return <any>{
       name: cardName,
       description: `${data.get('Description')} [S/N: ${currentCard.getSerial().toString()}]`,
-      image: `https://metadata.dkdao.network/static/${(cardName || '')
+      image: `https://assets.duelistking.com/metadata/${(cardName || '')
         .toString()
         .toLowerCase()
         .replace(/['\s]/g, '-')}.png`,
