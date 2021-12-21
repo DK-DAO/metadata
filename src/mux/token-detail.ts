@@ -5,7 +5,7 @@ import Card from '../helper/card';
 import jsonData from './data.json';
 
 Mux.get(
-  '/token/:nftTokenId',
+  '/card/:nftTokenId',
   new Validator({
     name: 'nftTokenId',
     type: 'string',
