@@ -1,27 +1,40 @@
-import { parse } from 'dotenv';
-import fs from 'fs';
-import { objToCamelCase } from './utilities';
+import { Utilities, ConfigLoader, Singleton, Validator } from '@dkdao/framework';
 
-interface ApplicationConfig {
+interface IApplicationConfig {
   nodeEnv: string;
   serviceHost: string;
   servicePort: number;
 }
 
-const config = ((conf) => {
-  const converted: any = {};
-  const kvs = <[string, string][]>Object.entries(conf);
-  for (let i = 0; i < kvs.length; i += 1) {
-    const [k, v]: [string, string] = kvs[i];
-    switch (k) {
-      case 'servicePort':
-        converted[k] = parseInt(v, 10);
-        break;
-      default:
-        converted[k] = v.trim();
-    }
-  }
-  return converted;
-})(objToCamelCase(parse(fs.readFileSync(`${__dirname}/../../.env`))));
+const configLoader = Singleton<ConfigLoader>(
+  'duelistking-web-backend-config',
+  ConfigLoader,
+  `${Utilities.File.getRootFolder()}/.env`,
+  new Validator(
+    {
+      name: 'nodeEnv',
+      type: 'string',
+      location: 'any',
+      require: true,
+      postProcess: (e) => e.trim(),
+      enums: ['production', 'development', 'test', 'staging'],
+    },
+    {
+      name: 'serviceHost',
+      type: 'string',
+      location: 'any',
+      require: true,
+      postProcess: (e) => e.trim(),
+    },
+    {
+      name: 'servicePort',
+      type: 'integer',
+      location: 'any',
+      require: true,
+      validator: (e) => Number.isFinite(e) && Number.isInteger(e) && e > 0,
+    },
+  )
+);
 
-export default <ApplicationConfig>config;
+const config = configLoader.getConfig<IApplicationConfig>();
+export default config;

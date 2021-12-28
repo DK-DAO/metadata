@@ -1,8 +1,8 @@
+import { Mux } from '@dkdao/framework';
 import { objToCamelCase } from '../helper/utilities';
-import { Mux } from '../framework';
 import jsonData from './data.json';
 
-Mux.get('/token', undefined, async () => {
+Mux.get('/card', undefined, async () => {
   return {
     success: true,
     result: {
@@ -11,10 +11,10 @@ Mux.get('/token', undefined, async () => {
       limit: 1000,
       order: [],
       records: jsonData.map((item) => {
-        const image = `https://metadata.dkdao.network/static/${(item.Name || '')
+        const image = `https://assets.duelistking.com/metadata/${(item.Name || '')
           .toString()
           .toLowerCase()
-          .replace(/['\s]/g, '-')}.png`;
+          .replace(/['\s]/g, '-')}.jpg`;
         return {
           image,
           ...objToCamelCase(item),

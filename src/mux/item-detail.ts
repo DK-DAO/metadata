@@ -1,6 +1,5 @@
 import { BigNumber } from 'bignumber.js';
-import { IRequestData } from '../framework/interfaces';
-import { Mux, Validator } from '../framework';
+import { IRequestData, Mux, Validator } from '@dkdao/framework';
 import Card from '../helper/card';
 
 Mux.get(
@@ -20,7 +19,7 @@ Mux.get(
       name: `Duelist King Mystery Box #${currentItem.getId().toString()}`,
       description: `Duelist King Mystery Box Phase #${currentItem.getId().toString()
         }[S / N: ${currentItem.getSerial().toString()}]`,
-      image: `https://assets.duelistking.com/metadata/box-phase-${currentItem.getId().toString()}.png`,
+      image: `https://assets.duelistking.com/metadata/box-phase-${currentItem.getId().toString()}.jpg`,
       external_link: 'https://duelistking.com',
       seller_fee_basis_points: 500,
       fee_recipient: '0xeE4fe9347a7902253a515CC76EaA3253b47a1837',

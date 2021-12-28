@@ -1,6 +1,5 @@
 import { BigNumber } from 'bignumber.js';
-import { IRequestData } from '../framework/interfaces';
-import { Mux, Validator } from '../framework';
+import { IRequestData, Mux, Validator } from '@dkdao/framework';
 import Card from '../helper/card';
 import jsonData from './data.json';
 
@@ -24,7 +23,7 @@ Mux.get(
       image: `https://assets.duelistking.com/metadata/${(cardName || '')
         .toString()
         .toLowerCase()
-        .replace(/['\s]/g, '-')}.png`,
+        .replace(/['\s]/g, '-')}.jpg`,
       external_link: 'https://duelistking.com',
       seller_fee_basis_points: 500,
       fee_recipient: '0xeE4fe9347a7902253a515CC76EaA3253b47a1837',

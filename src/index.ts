@@ -1,6 +1,6 @@
 /* eslint-disable no-await-in-loop */
 import cluster from 'cluster';
-import { FrameworkEvent, Mux } from './framework';
+import { FrameworkEvent, Mux } from '@dkdao/framework';
 import config from './helper/config';
 import logger from './helper/logger';
 import { IWoker, loadWorker } from './helper/utilities';
@@ -66,7 +66,7 @@ class MainApplication {
    */
   private static startAPI() {
     logger.info(`Start API <${process.env.name}> service ${config.serviceHost}:${config.servicePort}`);
-    Mux.init(true, config.servicePort, config.serviceHost);
+    Mux.init(config.servicePort, config.serviceHost, true);
   }
 
   /**
