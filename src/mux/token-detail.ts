@@ -17,13 +17,16 @@ Mux.get(
     const currentCard = Card.from(`0x${bn.toString(16).padStart(64, '0')}`);
     const data = new Map(Object.entries(jsonData[Number(currentCard.getId())]));
     const cardName = data.get('Name').trim();
+    const image = data.get('Image')
+      ? data.get('Image')
+      : `https://assets.duelistking.com/metadata/${(cardName || '')
+        .toString()
+        .toLowerCase()
+        .replace(/['\s]/g, '-')}.jpg`
     return <any>{
       name: cardName,
       description: `${data.get('Description')} [S/N: ${currentCard.getSerial().toString()}]`,
-      image: `https://assets.duelistking.com/metadata/${(cardName || '')
-        .toString()
-        .toLowerCase()
-        .replace(/['\s]/g, '-')}.jpg`,
+      image: image,
       external_link: 'https://duelistking.com',
       seller_fee_basis_points: 500,
       fee_recipient: '0xeE4fe9347a7902253a515CC76EaA3253b47a1837',
